@@ -1,0 +1,1843 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresNonAlphanumeric.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresNonAlphanumeric.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresNonAlphanumeric.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (40ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13b7f779-90cf-44a5-a194-94d592058355
+Error Number:208,State:1,Class:16
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (77ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13b7f779-90cf-44a5-a194-94d592058355
+Error Number:208,State:1,Class:16
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (56ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13b7f779-90cf-44a5-a194-94d592058355
+Error Number:208,State:1,Class:16
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (25ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13b7f779-90cf-44a5-a194-94d592058355
+Error Number:208,State:1,Class:16
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (34ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:13b7f779-90cf-44a5-a194-94d592058355
+Error Number:208,State:1,Class:16
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User validation failed: InvalidEmail.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:0c0ccb6d-8c81-492f-8f28-d66d506ad190
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:98e8f241-74db-4311-ac95-24354af55445
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:97c26201-ad65-432e-acfd-43825f668442
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:99e3db57-85b9-4469-84ba-5ae63df33742
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:df831c46-fbec-4b55-a638-cda65a03785f
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:05a43514-78d0-4402-99e8-258510e92c52
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:05a43514-78d0-4402-99e8-258510e92c52
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:2895665e-9172-4d2a-9040-d05f4771c3e2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4c6bc4ac-1c68-4dd2-a9b6-a3430e9df2b4
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User validation failed: DuplicateEmail.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4c6bc4ac-1c68-4dd2-a9b6-a3430e9df2b4
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:3045c8f1-f1b2-42d3-8665-6f1d44ea2ba0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (29ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9d30fbc8-120d-4296-81b2-f55dcd598529
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Failed executing DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9d30fbc8-120d-4296-81b2-f55dcd598529
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Failed executing DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:5721fc55-80d5-4f0a-8e74-7fb42d195d65
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9b678884-f31c-4f46-8d34-0684dcca09ba
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Description], [o].[UserId]
+FROM [Orders] AS [o]
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:3be8a874-102a-4605-a3bc-1e64de1b7278
+Error Number:208,State:1,Class:16
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Description], [o].[UserId]
+FROM [Orders] AS [o]
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:655208e6-2931-41f6-bb83-e33454c4bd86
+Error Number:208,State:1,Class:16
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Description], [o].[UserId]
+FROM [Orders] AS [o]
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:a6ccb154-b98b-453d-b6d9-a601e23d34a9
+Error Number:208,State:1,Class:16
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Description], [o].[UserId]
+FROM [Orders] AS [o]
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ef530c3a-d194-4c08-a571-ae8ae1999e8a
+Error Number:208,State:1,Class:16
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (113ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b0fdfbbc-c9aa-41ec-8e85-f7a13f465e5a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Failed executing DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "TestDB", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b0fdfbbc-c9aa-41ec-8e85-f7a13f465e5a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Description], [o].[UserId]
+FROM [Orders] AS [o]
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Orders'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0493be2e-3ac3-4a90-9272-58dad5329fdd
+Error Number:208,State:1,Class:16
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+User password validation failed: PasswordRequiresNonAlphanumeric.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Invalid password for user.
+User failed to provide the correct password.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Failed executing DbCommand (357ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "ProdDb", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a54a2572-6647-42ba-930a-fff48cb5ea8d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Failed executing DbCommand (190ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([Description], [UserId])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+An exception occurred in the database while saving changes for context type 'DAL.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_AspNetUsers_UserId". The conflict occurred in database "ProdDb", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a54a2572-6647-42ba-930a-fff48cb5ea8d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresUpper.
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An unhandled exception has occurred while executing the request.
+An error occurred using a transaction.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: Invalid attempt to call CheckDataIsReady when reader is closed.
+   at Microsoft.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method18(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Failed executing DbCommand (169ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Login], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Failed executing DbCommand (329ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Login], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An exception occurred while iterating over the results of a query for context type 'DAL.Context.DatabaseContext'.
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+Processing request Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker+ExceptionContextSealed
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\User\source\repos\prod\prod
